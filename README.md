@@ -21,7 +21,7 @@ Run the following command
 
     git clone https://github.com/LazyVim/starter ~/.config/nvim
 
-###Windows
+### Windows
 Backup your previous Configuration
 
     # required
