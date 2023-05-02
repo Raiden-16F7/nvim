@@ -1,4 +1,8 @@
-# 💤 LazyVim
+# 💤 LazyVim config 
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+A config based off of LazyVim with Tabnine and ChatGPT support.
+Just copy my config to your nvim path and run
+
+    nvim
+
+default theme is set to catppuccin
