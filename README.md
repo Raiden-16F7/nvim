@@ -8,6 +8,32 @@ Just copy my config to your nvim path and run
 Default theme is set to catppuccin.
 
 To make Tabnine work on windows, you need to perform the following:
+## Installation
+### Linux
+Backup Your previous configuration
+
+    mv ~/.config/nvim ~/.config/nvim.bak
+    mv ~/.local/share/nvim ~/.local/share/nvim.bak
+    mv ~/.local/state/nvim ~/.local/state/nvim.bak
+    mv ~/.cache/nvim ~/.cache/nvim.bak
+
+Run the following command
+
+    git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+###Windows
+Backup your previous Configuration
+
+    # required
+    Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+    # optional but recommended
+    Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+
+Run the following command
+
+    git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
+
+## Configuration
 ### Windows
 
 <!-- > **Note:**
