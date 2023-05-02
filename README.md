@@ -62,3 +62,6 @@ For ChatGPT to work you need to set the API-Key in your environment path.
 Press windows key and search for environment variables
 Then edit your path variable 
 Add a new variable called OPENAI_API_KEY.
+
+#### Note
+Feel free to edit this config to your liking and refer me.
